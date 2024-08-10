@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="413dp"
+        android:layout_height="252dp"
+        app:cardCornerRadius="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="278dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="33dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:gravity="center"
+            android:text="Oh no! delete your\nfriend?"
+            android:textSize="24sp" />
+        <!-- width: 129.5px;
+        height: 42px;
+        top: 137px;
+        left: 50px;
+        padding: 9px 0px 10px 0px;
+        gap: 0px;
+        border-radius: 8px 0px 0px 0px;
+        opacity: 0px;-->
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="129.5dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="137dp"
+            app:cornerRadius="10dp"
+            android:backgroundTint="#6C63FF"
+            android:text="Yes"
+            android:fontFamily="@font/quicksand_semibold"
+            android:textSize="18sp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/materialbutton5"
+            android:layout_width="129.5dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="137dp"
+            android:backgroundTint="#FF6584"
+            android:fontFamily="@font/quicksand_semibold"
+            android:text="No"
+            android:textSize="18sp"
+            app:cornerRadius="10dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
